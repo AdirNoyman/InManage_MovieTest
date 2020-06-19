@@ -13,12 +13,13 @@ class MovieDetailScreen: UIViewController {
     var selectedMovie: Movie?
     var movieId: String?
     
-    @IBOutlet var movieImage: UIImageView!
+   
     
     @IBOutlet var movieName: UILabel!
     
     @IBOutlet var movieYear: UILabel!
     
+    @IBOutlet var movieImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
